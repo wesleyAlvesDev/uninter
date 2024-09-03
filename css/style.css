@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.menu .active {
+    background-color: #04AA6D;
+}
+
+
+.menu {
+    padding-bottom:3%;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    text-align: center;
+    color: #000000;
+}
+.contact-form {
+    margin: 20px 0;
+}
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.contact-form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.contact-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #000000;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.category {
+    background-color: #000000;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.experience {
+    margin: 20px 0;
+}
+.job {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.job:last-child {
+    border-bottom: none;
+}
+.job-title {
+    font-weight: bold;
+    color: #000000;
+}
+.job-company {
+    font-style: italic;
+    color: #666;
+}
+.job-date {
+    font-weight: bold;
+    color: #333;
+}
+.job-description {
+    margin: 10px 0;
+}
+
+.section {
+    margin: 20px 0;
+}
+.education, .certifications, .courses {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.education:last-child, .certifications:last-child, .courses:last-child {
+    border-bottom: none;
+}
+.education-item, .certification-item, .course-item {
+    margin-bottom: 10px;
+}
+.title {
+    font-weight: bold;
+}
+.institution, .certification, .course {
+    font-style: italic;
+    color: #666;
+}
+.date {
+    font-weight: bold;
+    color: #333;
+}
